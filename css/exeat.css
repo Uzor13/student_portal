@@ -1,0 +1,227 @@
+.two__fields {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 80px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+label {
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.input__text::placeholder {
+    color: #b9bcbf;
+}
+
+.input__email::placeholder {
+    color: #b9bcbf;
+}
+
+.date::placeholder {
+    color: #b9bcbf;
+}
+
+input, select {
+    height: 34px;
+    border: 1px solid #c2c5c8;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.input__text {
+    width: 350px;
+}
+
+.one__field {
+    width: 800px;
+    margin-left: 200px;
+}
+
+.input__email {
+    width: 750px;
+    margin-top: -14px;
+}
+
+.date {
+    margin-left: 200px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 20px;
+    grid-gap: 30px;
+}
+
+#depart {
+    width: 520px;
+}
+
+#arrival {
+    width: 520px;
+}
+
+#drop {
+    margin-top: -20px;
+    width: 750px;
+}
+
+.exeat__drop {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.textarea {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 750px;
+    border: 1px solid #c2c5c8;
+    border-radius: 4px;
+    outline: 0;
+    margin-top: -10px;
+}
+
+.exeat__btn {
+    margin-left: 750px;
+    width: 200px;
+    height: 45px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #00C851;
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .two__fields {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+        margin-left: 30px;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    .input__text {
+        width: 280px;
+    }
+
+    .one__field {
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .input__email {
+        width: 280px;
+    }
+
+    .date {
+        margin-left: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 10px;
+        grid-gap: 30px;
+    }
+
+    #depart {
+        width: 149px;
+    }
+
+    #arrival {
+        width: 149px;
+    }
+
+    .exeat__drop {
+        margin-left: 30px;
+    }
+
+    #drop {
+        width: 280px;
+    }
+
+    .textarea {
+        margin-left: 30px;
+    }
+
+    textarea {
+        width: 280px;
+    }
+
+    .exeat__btn {
+        margin-left: 160px;
+        width: 150px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+    .two__fields {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+        margin-left: 90px;
+    }
+
+    label {
+        font-size: 1.2em;
+    }
+
+    .input__text {
+        width: 350px;
+    }
+
+    .one__field {
+        margin-left: 90px;
+        margin-top: 15px;
+    }
+
+    .input__email {
+        width: 350px;
+    }
+
+    .date {
+        margin-left: 90px;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 10px;
+        grid-gap: 30px;
+    }
+
+    #depart {
+        width: 220px;
+    }
+
+    #arrival {
+        width: 220px;
+    }
+
+    .exeat__drop {
+        margin-left: 90px;
+    }
+
+    #drop {
+        width: 350px;
+    }
+
+    .textarea {
+        margin-left: 90px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+
+    .exeat__btn {
+        margin-left: 290px;
+        width: 150px;
+    }
+}
